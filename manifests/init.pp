@@ -44,5 +44,8 @@
 #
 class packages {
 
+  package { 'git':
+    ensure => latest,
+  }
 
 }
